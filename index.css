@@ -1,0 +1,102 @@
+/* Write your code here. */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.notifications-main-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.notification-heading {
+  color: #0f172a;
+  font-size: 40px;
+  font-family: "Roboto";
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .notification-heading {
+    font-size: 50px;
+  }
+}
+
+.notification-sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 12px;
+  padding-right: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    height: 80px;
+    width: 500px;
+  }
+}
+.msg-container {
+  display: flex;
+  flex-direction: row;
+}
+.paragraph {
+  font-family: "Roboto";
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .paragraph {
+    font-size: 20px;
+  }
+}
+.image {
+  height: 15px;
+  width: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+.information-msg {
+  background-color: #0b69ff;
+  color: #ffffff;
+}
+
+.success-msg {
+  background-color: #2dca73;
+  color: #ffffff;
+}
+
+.warning-msg {
+  background-color: #ffb800;
+  color: #ffffff;
+}
+
+.error-msg {
+  background-color: #ff0b37;
+  color: #ffffff;
+}
